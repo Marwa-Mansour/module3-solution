@@ -1,0 +1,98 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    
+    font-size: 16px;
+    color: black;
+    background-color: burlywood;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+#head-nav{
+    background-color: coral;
+    border-radius: 0;
+    border: 0;
+    
+
+}
+
+.brand{
+    color: rgb(49, 49, 190);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.brand:hover{
+    text-decoration: none;
+    color: rgb(93, 93, 172);
+}
+
+/* #nav-button{
+    margin-top: -10px;
+} */
+
+/* #nav-list a{
+    color: black;
+    text-align: center;
+    background-color: rgb(228, 163, 140);
+    font-size: 1.8em;
+}
+
+#nav-list a:hover{
+    background-color: rgb(240, 153, 122);
+} */
+
+.navbar-toggle{
+	border: 2px solid rgb(49, 49, 190);
+	margin-right: 25px;
+}
+
+.icon-bar{
+	background-color: rgb(49, 49, 190);
+}
+
+.nav{
+    font-size: 25px;
+}
+
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.menu-item{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: rgb(228, 163, 140);
+	border-bottom: 1px solid black;
+	color: black;
+	display: block;
+}
+
+.menu-item:hover{
+	background-color: rgb(240, 153, 122);
+	color: black;
+}
+
+
+.main{
+    margin-top: 40px;
+    /* border: solid 1px black; */
+    background-color: rgb(221, 182, 168);
+    
+}
+
+@media (max-width: 510px){
+    .main{
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
